@@ -69,6 +69,22 @@ _OFFSET_SIGNATURES = {
         "calendar",
         "offset",
     ),
+    pd.tseries.offsets.MonthEnd: (
+        "n",
+        "normalize",
+    ),
+    pd.tseries.offsets.MonthBegin: (
+        "n",
+        "normalize",
+    ),
+    pd.tseries.offsets.BusinessMonthEnd: (
+        "n",
+        "normalize",
+    ),
+    pd.tseries.offsets.BusinessMonthBegin: (
+        "n",
+        "normalize",
+    ),
     pd.tseries.offsets.BYearEnd: (
         "n",
         "normalize",
